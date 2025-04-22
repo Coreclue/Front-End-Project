@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.production.css" rel="stylesheet" type="text/css">
+
 
     <style>
         /*body {*/
@@ -101,13 +103,13 @@
     </style>
 </head>
 <body class="index-About-pages eb-garamond">
-    <img src="imgs/favicon-32x32.png" alt="eye Development"  id="img1"><span id="development">Development </span>
-    <header>
+    <img src="imgs/favicon-32x32.png" alt="eye Development"  id="img1"><span id="development-span">Development </span>
+    <header class="page-header">
     <nav role="">
-        <ul class="home-about-contact">
-            <li class="links"><a href="index.html">Home</a></li>
-            <li class="links"><a href="about.html" aria-label="About-Page" style="">About</a></li>
-            <li class="links"><a href="contact.html">Contact</a></li>
+        <ul role="menubar" class="navigation-list">
+            <li id="index-button"><a href="index.html">Home</a></li>
+            <li id="index-button"><a href="about.html" aria-label="About-Page" style="">About</a></li>
+            <li id="index-button"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header><br>
@@ -134,10 +136,10 @@
 <footer class="find-me-on">
     <h2>Find me on</h2>
     <a href="https://www.linkedin.com/in/dev-pro/">
-        <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" width="42px" height="42px">
+        <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" width="42px" height="42px" id="footer-scale">
     </a>
     <a href="https://github.com/Coreclue/Dev_pro" id="git">
-        <img src="./imgs/8546919_github_square_icon.svg" alt="github" width="32px" height="32px">
+        <img src="./imgs/8546919_github_square_icon.svg" alt="github" width="32px" height="32px" id="footer-scale">
     </a>
 </footer>
     <script src="./js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
