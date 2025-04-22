@@ -1,12 +1,12 @@
+.grid-item {
+    background-color: lightgray;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 20px;
+    grid-gap: 15px;
     text-align: center;
-}
-
-.grid-item {
-    background-color: lightgray;
 }
 
 .page-footer {
