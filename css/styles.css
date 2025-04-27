@@ -135,7 +135,7 @@ a:active {
 }
 
 .button, button {
-    /*Buttons for index.htmll, about.html*/
+    /*Buttons for index.htmll, about Brian Mcintosh.html*/
     /*overwrites browser defaults and resets the border*/
     border: none;
     display: inline-block;
@@ -179,6 +179,25 @@ button:focus,
     margin: 0;
 
 }
+
+@keyframes colorChange {
+    10%{
+        color: red;
+    }
+    25% {
+        color: lightblue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+
 
 .profile-pic {
     border-radius: 50%;

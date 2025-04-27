@@ -125,7 +125,7 @@ on work.html element 4*/
         fill: rotate(50deg);
     }
 }
-/*index.html, about.html, contact Brian Mcintosh.html, work.html*/
+/*index.html, about Brian Mcintosh.html, contact Brian Mcintosh.html, work.html*/
 #development {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -328,7 +328,7 @@ nav .navigation-list {
 
 
 /*About.html*/
-/*Reference to about.html*/
+/*Reference to about Brian Mcintosh.html*/
 @-webkit-keyframes development1 {
     0% {
         top: 0px;
@@ -389,7 +389,7 @@ nav .navigation-list {
     margin: 0px;
     border: solid 2px black;
 }
-/*about.html*/
+/*about Brian Mcintosh.html*/
 main table {
     margin: 0px;
     border: solid 2px black;
@@ -427,7 +427,7 @@ a:active {
 
 /*examples for buttons on html*/
 button {
-    /*Buttons for index.htmll, about.html*/
+    /*Buttons for index.htmll, about Brian Mcintosh.html*/
     /*overwrites browser defaults and resets the border*/
     border: none;
     display: inline-block;
@@ -501,7 +501,7 @@ button:focus,
 /*    background-color: #888888;*/
 /*}*/
 
-/*sun class in about.html*/
+/*sun class in about Brian Mcintosh.html*/
 @-webkit-keyframes color-change {
     0% {
         fill: #6EFFCF;
