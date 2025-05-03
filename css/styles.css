@@ -53,77 +53,304 @@ background-color: #a9a9a9; Gray
 
 */
 
-#development {
-    font-weight: bold;
-    margin-top: 80px;
+/*CSS variables inside the global scope of root*/
+:root {
+    /*Colors*/
+    --index-background-color: #6EFFCF;
+    --default-text-black-color: #000000;
+    --white: #ffffff;
+    --yellow: #ffff00;
+    --darkblue: #00008b;
+    --red: #ff0000;
+    --lightblue: #add8e6;
+    --green: #008000;
+    --cornflowerblue: #6496ed;
+    /*fonts*/
+    --fontweight: normal;
+    --fontfamily: "EB Garamond", Serif;
+    --fontsize: 18px;
+    --footer-scale: scale(1.1);
+    --Width-social-icons: 32px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+/*Applies to index.html,  element 1*/
+.eb-garamond {
+    font-family: var(--fontfamily);
+    font-optical-sizing: auto;
+    font-weight: var(--fontweight);
+    font-style: normal;
+    font-size: var(--fontsize);
+    line-height: 1.5;
+    color: var(--default-text-black-color);
+    background-color: var(--lightblue);
+}
+
+#img1 {
+    display: inline-block;
+}
+
+
+
+ul.navigation-list {
+
+
+
+}
+
+#img1 {
+
+}
+
+/*index.html element 2*/
+
+
+
+/*index.html logo and development transform animation alternate element 3*/
+@keyframes development {
+    0% {
+        fill: rotate(0deg);
+    }
+
+    100% {
+        fill: rotate(50deg);
+    }
+}
+/*index.html, about.html, contact.html, work.html*/
+#development {
+    display: flex;
+    flex-wrap: wrap;
+    animation-name: development;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+#development-span {
+    margin-top: 80px;
+    font-weight: italic;
+}
+
+/*index.html*/
 #img1 {
     width: 100px;
     height: 100px;
 }
 
-
-body.index-About-pages {
-    color: #000000;
-    background-color: #a9a9a9;
+@keyframes pupil {
+    0% {
+        fill: var(--index-background-color);
+    }
+    25% {
+        fill: var(--buttons);
+    }
+    75% {
+        fill: var(--yellow);
+    }
+    100% {
+        fill: var(--default-text-black-color) ;
+    }
 }
+
+svg {
+    margin-left: 350px;
+    transition: ease 0.5s;
+}
+
+svg:hover {
+    transform: rotate(360deg);
+}
+
+.pupil {
+    animation-name: pupil;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+nav .navigation-list {
+     float: right;
+     margin-left: 350px;
+ }
+
+.navigation-list li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navigation-list a {
+    text-decoration: none;
+}
+
+/*buttons for index.html*/
+.nav-buttons {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: var(--buttons);
+    background-color: var(--white);
+}
+
+.nav-buttons:hover {
+    transform: scale(1.2);
+    transition-property: color;
+    transition-duration: 0.2s;
+    background-color: var(--darkblue);
+}
+
+
+.profile-pic {
+    /*float: left;*/
+    margin-top: 150px;
+}
+
+
+#index-profile-pic {
+    float: right;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+
+/*Hell world statement intro statement index.html*/
+@keyframes colorChange {
+    10%{
+        color: var(--red);
+    }
+    25% {
+        color: var(--lightblue);
+    }
+    50% {
+        color: var(--green);
+    }
+    75% {
+        color: var(--yellow);
+    }
+    100% {
+        color: var(--darkblue);
+    }
+}
+
+/*Color animation change index.html*/
+#hello-border  {
+    font-style: inherit;
+    font-size: 20px;
+    animation: colorChange 5s infinite;
+    text-align: center;
+    background-color: var(--buttons);
+    border: 2px solid var(--cornflowerblue);
+}
+
+
+
+/*index.html logo and development transform animation alternate*/
+/*@keyframes development {*/
+/*    from {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+
+/*    to {*/
+/*        transform: rotate(2deg);*/
+/*    }*/
+
+/*}*/
+/*index.html*/
+/*#development {*/
+/*    animation: 5s development 3 alternate linear;*/
+/*}*/
+/*Applies to all linked pages*/
+
+
+
 
 /*// <uniquifier>: Use a unique and descriptive class name*/
 /*// <weight>: Use a value from 400 to 800*/
 
-.eb-garamond {
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-size: large;
-    line-height: 1.5;
+
+
+
+/*About.html*/
+/*Reference to about.html*/
+@keyframes development1 {
+    0% {
+       top: 0px;
+    }
+
+
+    100% {
+        bottom: 2px;
+    }
 }
 
-.navigation-list {
-    list-style-type: none;
-    display: inline-block;
-    margin: 15px;
+#development {
+    /*font-weight: normal;*/
+    /*margin-top: 80px;*/
+    /*animation-name: development1;*/
+    /*animation-duration: 5s;*/
+    /*animation-direction: alternate;*/
+    /*animation-iteration-count: infinite;*/
+}
+/*margin for index.html nav element*/
+
+#footer-scale:hover {
+    transform: var(--footer-scale);
 }
 
-.navigation-list li {
-    display: inline-block;
-    margin: 15px;
-}
 
-.page-header {
-    display: flex;
-    width: 100%;
-    padding: 20px;
-}
-
-.page-header_item {
-    flex: 0 1 200px;
-}
-
-.page-header_item:last-child {
-    flex-grow: 1;
+/*About.html*/
+.resume-button {
+    display: block;
+    border: var(--default-text-black-color) solid 2px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--default-text-black-color);
     text-align: right;
+    /*clear: both;*/
+    /*top: 490px;*/
+    text-decoration: none;
 }
-/*.find-me-on {*/
-/*    text-align: center;*/
-/*    line-height: 1.5;*/
-/*}*/
-/* .find-me-on h2 {*/
-/*     margin-bottom: 0px;*/
-/* }*/
 
- /*.find-me-on a {*/
- /*    margin-top: 0px;*/
- /*}*/
+.resume-button:hover {
+    background-color:  var(--cornflowerblue);
+    color: var(--default-text-black-color);
+}
+/*About.html*/
+.whole-table {
+    margin: 0px;
+    border: solid 2px black;
+}
+/*about.html*/
+main table {
+    margin: 0px;
+    border: solid 2px black;
+}
 
- a {
-     color: #000000;
- }
+#about-paragraph {
+    margin: 75px 0 0 0;
+    line-height: 1.8;
+}
+
+#about-paragraph:hover {
+    transition: background-color;
+}
+
+
+
+
+
+
+
+ /*Contact.html*/
 
  a:visited {
-     color: #ff0000;
+     color: var(--buttons);
  }
 
 a:hover, a:focus {
@@ -131,19 +358,20 @@ a:hover, a:focus {
 }
 
 a:active {
-    color: #808080;
+    color: var(--buttons);
 }
 
-.button, button {
-    /*Buttons for index.htmll, about Brian Mcintosh.html*/
+/*examples for buttons on html*/
+button {
+    /*Buttons for index.htmll, about.html*/
     /*overwrites browser defaults and resets the border*/
     border: none;
     display: inline-block;
     /*takes the front from the outer container*/
     font-family: inherit;
     /*styles the button*/
-    background-color: #357b70;
-    color: white;
+    background-color: var(--darkblue);
+    color: var(--white);
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
@@ -155,16 +383,18 @@ a:active {
 button:hover,
 button:focus,
 .button:hover,
-.button:focus {
+.button:focus,
+.home-about-contact
+                {
     cursor:pointer;
     opacity: 0.8;
 }
 
-
-.secondary-button {
-    background-color: #e0b354;
-    color: #2b2b2b;
-}
+/*example of secondary button*/
+/*.secondary-button {*/
+/*    background-color: #e0b354;*/
+/*    color: #2b2b2b;*/
+/*}*/
 
 /*Removed to conserve and create less complex space*/
 /*#brian-header {*/
@@ -173,58 +403,25 @@ button:focus,
 /*    margin: 0px;*/
 /*}*/
 
-.profile-pic-next-to-logo {
-    display: inline-block;
-    position: absolute;
-    margin: 0;
-
-}
-
-@keyframes colorChange {
-    10%{
-        color: red;
-    }
-    25% {
-        color: lightblue;
-    }
-    50% {
-        color: green;
-    }
-    75% {
-        color: yellow;
-    }
-    100% {
-        color: blue;
-    }
-}
 
 
-.profile-pic {
-    border-radius: 50%;
-}
-
-#profile-pic {
-    float: left ;
-    height: 250px;
-    width: 250px;
-    margin-right: 40px;
-    /*border-radius: 50%;*/
-}
-
-.float-left {
-    display: inline-block;
-}
-
-* {
-    box-sizing: border-box;
-}
 
 .page-footer {
-    display: flex;
-    clear: both;
-    flex-direction: column;
-    text-align: center;
+    /*display: inline-block;*/
+    /*clear: both;*/
+    /*flex-direction: column;*/
+    /*text-align: center;*/
 }
+
+#linkedin, #git {
+    width: var(--Width-social-icons);
+}
+
+#linkedin:hover, #git:hover {
+    transform: scale(1.2);
+
+}
+
 
 /*.grid {*/
 /*    display: grid;*/
@@ -236,27 +433,48 @@ button:focus,
 /*    background-color: #888888;*/
 /*}*/
 
-
+    /*sun class in about.html*/
     @keyframes color-change {
         0% {
-            fill: #6EFFCF;
+            fill: var(--index-background-color);
         }
         50% {
-            to: #fcffad;
+            to: var(--yellow);
         }
         100% {
-            fill: #f76414;
+            fill: var(--red);
         }
     }
 
 
 
-.whole-table {
-    margin: 0px;
-    border: solid 2px black;
+
+
+
+
+
+body.index-About-pages {
+    color: var(--default-text-black-color);
+    background-color: #a9a9a9;
 }
 
-main table {
-    margin: 0px;
-    border: solid 2px black;
+
+#skilllevel {
+
 }
+
+/*work.html*/
+#work {
+    text-decoration: underline;
+}
+.grid-item:hover {
+    background-color: var(--cornflowerblue);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
