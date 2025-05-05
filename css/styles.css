@@ -25,7 +25,7 @@
 
 /*INDEX.HTML*/
 .eb-garamond {
-    font-family: var(--fontfamily);
+    font-family: var(--fontfamily), serif;
     font-optical-sizing: auto;
     font-weight: var(--fontweight);
     font-style: normal;
@@ -52,11 +52,11 @@
 /*index.html logo and development transform animation alternate element 3*/
 @keyframes development {
     0% {
-        fill: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     100% {
-        fill: rotate(50deg);
+        transform: rotate(50deg);
     }
 }
 /*index.html, about.html, contact.html, work.html, not working.*/
@@ -82,7 +82,7 @@
         fill: var(--index-background-color);
     }
     25% {
-        fill: var(--buttons);
+        fill: var(--pink);
     }
     75% {
         fill: var(--yellow);
@@ -205,10 +205,9 @@ b {
     background-color: var(--pink)
 }
 
-body div p {
-    text-indent: 100px;
-    /*margin-top: 15px;*/
-    /*line-height: 1.5;*/
+#about-Brian, #about-eye-development, #core-services {
+    display: inline-flex;
+    margin-left: 30%;
 }
 
 
