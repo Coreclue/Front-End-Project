@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="241d2fb6-a846-4492-a60f-ac98bed7efe8" name="Changes" comment="work.hmtl added" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Front-End Project\exportToHTML" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Project Files" color="Blue" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Coreclue&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Coreclue/Front-End-Project&quot;,
+    &quot;accountId&quot;: &quot;7d6d7179-b35c-44d3-9232-acdb2851c9ae&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2owLqtWdHY1TBHTJCtrzfsaLfik" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.home.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "gh-pages",
+    "js.buildTools.grunt.grunt-cli.package": "",
+    "last_opened_file_path": "C:/Users/brian/OneDrive/Documents/WebStorm/Front-End Project/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project\css" />
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project" />
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project\Portfolio Website" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project" />
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project\practice files" />
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project\Portfolio Website\imgs" />
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project\Portfolio Website" />
+      <recent name="C:\Users\brian\OneDrive\Documents\WebStorm\Front-End Project\Portfolio Website\CSS images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="241d2fb6-a846-4492-a60f-ac98bed7efe8" name="Changes" comment="" />
+      <created>1731775886304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731775886304</updated>
+      <workItem from="1731775887408" duration="11331000" />
+      <workItem from="1731891908831" duration="7800000" />
+      <workItem from="1731903348656" duration="392000" />
+      <workItem from="1731903757536" duration="17149000" />
+      <workItem from="1731978264557" duration="137000" />
+      <workItem from="1731979253496" duration="23221000" />
+      <workItem from="1732850003586" duration="13785000" />
+      <workItem from="1733247678911" duration="207000" />
+      <workItem from="1733247913917" duration="5943000" />
+      <workItem from="1733275613476" duration="62370000" />
+      <workItem from="1734028495877" duration="5532000" />
+      <workItem from="1734128721819" duration="3512000" />
+      <workItem from="1734206489254" duration="17122000" />
+      <workItem from="1734406666221" duration="10012000" />
+      <workItem from="1734723650162" duration="21819000" />
+      <workItem from="1734859984950" duration="22599000" />
+      <workItem from="1735420864088" duration="4149000" />
+      <workItem from="1735439283321" duration="3256000" />
+      <workItem from="1735447989526" duration="359000" />
+      <workItem from="1736040489036" duration="13446000" />
+      <workItem from="1736153619185" duration="130000" />
+      <workItem from="1736153760629" duration="2052000" />
+      <workItem from="1736160037615" duration="2159000" />
+      <workItem from="1736171313766" duration="1367000" />
+      <workItem from="1737038022955" duration="1429000" />
+      <workItem from="1737409054713" duration="3866000" />
+      <workItem from="1737561490078" duration="11405000" />
+      <workItem from="1737817891156" duration="16924000" />
+      <workItem from="1738286192856" duration="677000" />
+      <workItem from="1738379653985" duration="83238000" />
+      <workItem from="1739383672702" duration="3646000" />
+      <workItem from="1739403762272" duration="12087000" />
+      <workItem from="1739876891863" duration="1199000" />
+      <workItem from="1741475509427" duration="10731000" />
+      <workItem from="1742006884771" duration="2226000" />
+      <workItem from="1742047226647" duration="2897000" />
+      <workItem from="1742129435926" duration="391000" />
+      <workItem from="1742487579147" duration="9925000" />
+      <workItem from="1742520436446" duration="702000" />
+      <workItem from="1742552651641" duration="1647000" />
+      <workItem from="1742605072691" duration="16046000" />
+      <workItem from="1743081517376" duration="3916000" />
+      <workItem from="1743087435885" duration="1722000" />
+      <workItem from="1743166795284" duration="29318000" />
+      <workItem from="1743417277909" duration="14068000" />
+      <workItem from="1744281062849" duration="1409000" />
+      <workItem from="1744577926104" duration="29000" />
+      <workItem from="1744578245589" duration="37000" />
+      <workItem from="1744578420201" duration="621000" />
+      <workItem from="1744579529201" duration="7000" />
+      <workItem from="1745229451255" duration="308000" />
+      <workItem from="1745229772950" duration="9750000" />
+      <workItem from="1745538165308" duration="1880000" />
+      <workItem from="1745644618086" duration="6029000" />
+      <workItem from="1745713170288" duration="4823000" />
+      <workItem from="1746042623756" duration="5455000" />
+      <workItem from="1746306035977" duration="26259000" />
+      <workItem from="1746382997001" duration="19288000" />
+      <workItem from="1746410422309" duration="11311000" />
+      <workItem from="1746423271167" duration="1730000" />
+    </task>
+    <task id="LOCAL-00002" summary="work.hmtl added">
+      <option name="closed" value="true" />
+      <created>1738794338971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738794338971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Webmain" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="work.hmtl added" />
+    <option name="LAST_COMMIT_MESSAGE" value="work.hmtl added" />
+  </component>
+</project>
