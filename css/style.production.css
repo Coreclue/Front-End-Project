@@ -5,61 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*
-Colors used
-
-Text Color (Dark Gray): #2b2b2b;
-Primary Color (Purple): #357b70;
-Secondary Color (Orange): #e0b354;
- */
-
-/*Index page used*/
-/* body {
-          (text color) black color: #000000;
-            background-color: #6EFFCF;
-        }*/
-
-/* key frames color change */
-/*@keyframes colorChange {*/
-/*    10%{*/
-/*        color: red;*/
-/*    }*/
-/*    25% {*/
-/*        color: lightblue;*/
-/*    }*/
-/*    font-size: 2em;*/
-/*    animation: colorChange 5s infinite;*/
-/*    text-align: center;*/
-/*    background-color: #ffffff;*/
-/*}*/
-
-
-/* About Page color used*/
-/*body {*/
-/*    color: #000000;*/
-/*    background-color: #a9a9a9; gray*/
-/*}*/
-
-/*header nav ul li a {*/
-/*    color: #000000; Black*/
-/*}*/
-
-/*b {*/
-/*    color: #ffffff;*/
-/*    background-color: #000000;*/
-/*}*/
-
-/*footer h2 {*/
-/*    color: #000000;*/
-/*}*/
-
-
-/*Contact Page*/
-/*color: #000000; Black
-background-color: #a9a9a9; Gray
-
-*/
-
 /*CSS variables inside the global scope of root*/
 :root {
     /*Colors*/
@@ -74,37 +19,12 @@ background-color: #a9a9a9; Gray
     font-style: normal;
     font-size: 18px;
     line-height: 1.5;
+    color var(--default-text-black-color);
 }
-
-/*index.html element 1
-INDEX.HTML STARTUP*/
-#index-body-color {
-    color: #000000;
-    background-color: #6EFFCF;
-}
-
-
 
 /*@media*/
 
 
-/*index.html element 2*/
-.page-header {
-    display: inline;
-    width: 100%;
-    /*no noticeable effect for this property. Will leave it for now*/
-    padding: 0px;
-}
-/*index.html element 2*/
-/*.page-header_item {*/
-/*    flex: 0 1 200px;*/
-/*}*/
-/*index.html element not found with this class
-on work.html element 4*/
-/*.page-header_item:last-child {*/
-/*    flex-grow: 2;*/
-/*    text-align: right;*/
-/*}*/
 
 /*index.html logo and development transform animation alternate element 3*/
 @-webkit-keyframes development {
@@ -126,7 +46,7 @@ on work.html element 4*/
     }
 }
 /*index.html, about Brian Mcintosh.html, contact Brian Mcintosh.html, work.html*/
-#development {
+.development {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -140,12 +60,6 @@ on work.html element 4*/
     animation-direction: alternate;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    margin: 10px 0 90px 10px;
-}
-
-#development-span {
-    margin-top: 80px;
-    font-weight: italic;
 }
 
 /*index.html*/
@@ -222,14 +136,6 @@ nav .navigation-list {
     text-decoration: none;
 }
 
-/*buttons for index.html*/
-#index-button {
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #000000;
-}
 #index-button:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -301,32 +207,6 @@ nav .navigation-list {
     background-color: #ffffff;
 }
 
-/*index.html logo and development transform animation alternate*/
-/*@keyframes development {*/
-/*    from {*/
-/*        transform: rotate(0deg);*/
-/*    }*/
-
-/*    to {*/
-/*        transform: rotate(2deg);*/
-/*    }*/
-
-/*}*/
-/*index.html*/
-/*#development {*/
-/*    animation: 5s development 3 alternate linear;*/
-/*}*/
-/*Applies to all linked pages*/
-
-
-
-
-/*// <uniquifier>: Use a unique and descriptive class name*/
-/*// <weight>: Use a value from 400 to 800*/
-
-
-
-
 /*About.html*/
 /*Reference to about Brian Mcintosh.html*/
 @-webkit-keyframes development1 {
@@ -350,21 +230,6 @@ nav .navigation-list {
     }
 }
 
-#development {
-    /*font-weight: normal;*/
-    /*margin-top: 80px;*/
-    /*animation-name: development1;*/
-    /*animation-duration: 5s;*/
-    /*animation-direction: alternate;*/
-    /*animation-iteration-count: infinite;*/
-}
-/*margin for index.html nav element*/
-
-#footer-scale:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
 
 
 /*About.html*/
@@ -375,8 +240,6 @@ nav .navigation-list {
     border-radius: 5px;
     background-color: #000000;
     text-align: right;
-    /*clear: both;*/
-    /*top: 490px;*/
     text-decoration: none;
 }
 
@@ -450,7 +313,6 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus,
-.home-about-contact
 {
     cursor:pointer;
     opacity: 0.8;

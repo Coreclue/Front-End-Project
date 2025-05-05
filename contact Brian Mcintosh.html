@@ -3,146 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact me</title>
+    <title>Contact me BM</title>
+    <link rel="shortcut icon" href="/imgs/favicon-32x32.png">
     <link href="./css/normalize.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
-    <link href="./css/style.production.css" rel="stylesheet" type="text/css">
-
-
-    <style>
-        /*body {*/
-        /*    color: #000000;*/
-        /*    background-color: #a9a9a9;*/
-        /*}*/
-
-        .img-links {
-            display: inline;
-            margin: 100px 0 0;
-        }
-        header {
-        }
-        a {
-            /*    !*display: inline-block;*!*/
-            text-decoration: none;
-            color: #000000;
-            /*text-shadow: black 10px 10px 10px;*/
-            /*     !*justify-content: space-around;*!*/
-
-        }
-        li  {
-            /*display: inline-block;*/
-            /*position: absolute;*/
-            /*justify-content: space-between;*/
-            /*top: 10px;*/
-            /*right: 10px;*/
-
-            /*    !*display: inline-block;*!*/
-            text-decoration: none;
-            /*     !*justify-content: space-around;*!*/
-            margin: 10px;
-
-        }
-        ul {
-            list-style-type: none;
-
-            /*position: absolute;*/
-            /*position: right;*/
-            /*align-content: ;*/
-
-        }
-        nav {
-            text-align: right;
-            padding: 0 10px 0px 10px;
-            /*text-align: end;*/
-            position: relative;
-
-        }
-
-
-        .links {
-            display: inline;
-            /*justify-content: space-between;*/
-            /*margin: 10px 10px;*/
-            /*position: relative;*/
-
-        }
-        /*section {*/
-        /*    display: inline-block;*/
-        }
-        footer {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            margin: 10px 10px;
-        }
-        /*.form {*/
-        /*    !*display: inline-block;*!*/
-        /*    margin: 10px 10px;*/
-        /*    padding: 10px;*/
-        /*    text-align: center;*/
-        /*    align-content: center;*/
-        /*}*/
-        /*.bottom-left {*/
-        /*    position: absolute;*/
-        /*    display: inline-grid;*/
-        /*    bottom: 20px;*/
-        /*    left: 1px;*/
-        /*    margin: 0 10px;*/
-        }
-        .container {
-            display: flex;
-            text-align: center;
-            align-content: flex-end;
-        }
-        footer h5 {
-            margin: 10px;
-        }
-    </style>
+<!--    <link href="./css/style.production.css" rel="stylesheet" type="text/css">-->
 </head>
-<body class="index-About-pages eb-garamond">
-    <img src="imgs/favicon-32x32.png" alt="eye Development"  id="img1"><span id="development-span">Development </span>
-    <header class="page-header">
-    <nav role="">
+
+<body class="eb-garamond">
+<header class="flex-container">
+    <img src="imgs/favicon-32x32.png" alt="eye Development"  class="img1"><span class="development">Development </span>
+    <svg class="eyelid" width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Eye Outline -->
+        <ellipse cx="100" cy="100" rx="80" ry="50" stroke="black" stroke-width="5" fill="white"/>
+        <!-- Pupil -->
+        <circle class="pupil" cx="100" cy="100" r="20" fill="green"/>
+    </svg>
+    <nav role="navigation">
         <ul role="menubar" class="navigation-list">
-            <li id="index-button"><a href="index.html">Home</a></li>
-            <li id="index-button"><a href="about%20Brian%20Mcintosh.html" aria-label="About-Page" style="">About</a></li>
-            <li id="index-button"><a href="contact Brian Mcintosh.html">Contact</a></li>
+            <li class="nav-buttons"><a href="index.html">Home</a></li>
+            <li class="nav-buttons"><a href="about%20Brian%20Mcintosh.html" aria-label="About-Page">About</a></li>
+            <li class="nav-buttons"><a href="/contact%20Brian%20Mcintosh.html">Contact</a></li>
         </ul>
     </nav>
 </header><br>
-<h1 style="color: black;">Contact</h1>
-    <a href="mailto: brian.mcintosh96@yahoo.com>" aria-label="email-me"></a>
-<div class="form">
-    <form action="" method="post" id="form">
+
+<h1 id="contact-h1">Contact</h1>
+<!--    <a href="mailto: brian.mcintosh96@yahoo.com>" aria-label="email-me"></a>-->
+<div id="form-div">
+    <form action="" method="post" id="form-form">
         <label for="form">E-mail:</label>
             <input type="email" required="" id="form" name="email"><br>
-        <label>Telephone:</label><br>
-
-            <input type="tel" id="form" >
-
-        <label for="form">Message:</label><br>
-        <textarea required="required" maxlength="240" id="form"></textarea><br>
+        <label>Telephone:</label>
+            <input type="tel"><br>
+        <label for="form">Message:</label>
+        <textarea required="required" maxlength="240"></textarea><br>
         <input type="submit" value="Send Message"><br>
     </form>
 </div>
-<div class="bottom-left">
-    <a href="mailto: brian.mcintosh96@yahoo.com">Contact me</a><br>
-    <a href="mailto: brian.mcintosh96@yahoo.com">brian.mcintosh96@yahoo.com</a>
-    <a href="tel: 816-547-2376" aria-label="call-me">8165472376</a>
+<div id="contact-div"\>
+    <a href="mailto: brian.mcintosh96@yahoo.com" id="contact-div-button">Contact me</a><br>
+    <a href="mailto: brian.mcintosh96@yahoo.com">brian.mcintosh96@yahoo.com</a
+    <a href="tel: 816-547-2376" aria-label="call-me">816*547*2376</a>
 </div>
-<footer class="find-me-on">
+<footer class="page-footer">
     <h2>Find me on</h2>
+<div class="social-icons">
     <a href="https://www.linkedin.com/in/dev-pro/">
-        <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" width="42px" height="42px" id="footer-scale">
+        <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" id="linkedin">
     </a>
-    <a href="https://github.com/Coreclue/Dev_pro" id="git">
-        <img src="./imgs/8546919_github_square_icon.svg" alt="github" width="32px" height="32px" id="footer-scale">
+    <a href="https://github.com/Coreclue/Dev_pro">
+        <img src="./imgs/8546919_github_square_icon.svg" alt="github" id="git">
     </a>
+</div>
 </footer>
     <script src="./js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
-</body>
 </body>
 </html>
