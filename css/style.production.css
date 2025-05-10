@@ -5,151 +5,80 @@
 * Browsers: last 4 version
 */
 
-/*
-Colors used
-
-Text Color (Dark Gray): #2b2b2b;
-Primary Color (Purple): #357b70;
-Secondary Color (Orange): #e0b354;
- */
-
-/*Index page used*/
-/* body {
-          (text color) black color: #000000;
-            background-color: #6EFFCF;
-        }*/
-
-/* key frames color change */
-/*@keyframes colorChange {*/
-/*    10%{*/
-/*        color: red;*/
-/*    }*/
-/*    25% {*/
-/*        color: lightblue;*/
-/*    }*/
-/*    font-size: 2em;*/
-/*    animation: colorChange 5s infinite;*/
-/*    text-align: center;*/
-/*    background-color: #ffffff;*/
-/*}*/
-
-
-/* About Page color used*/
-/*body {*/
-/*    color: #000000;*/
-/*    background-color: #a9a9a9; gray*/
-/*}*/
-
-/*header nav ul li a {*/
-/*    color: #000000; Black*/
-/*}*/
-
-/*b {*/
-/*    color: #ffffff;*/
-/*    background-color: #000000;*/
-/*}*/
-
-/*footer h2 {*/
-/*    color: #000000;*/
-/*}*/
-
-
-/*Contact Page*/
-/*color: #000000; Black
-background-color: #a9a9a9; Gray
-
-*/
-
 /*CSS variables inside the global scope of root*/
 :root {
     /*Colors*/
     /*fonts*/
 }
 
-/*Applies to index.html,  element 1*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+/*INDEX.HTML*/
 .eb-garamond {
-    font-family: "EB Garamond", Serif;
+    font-family: "EB Garamond", Serif, serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     font-size: 18px;
     line-height: 1.5;
-}
-
-/*index.html element 1
-INDEX.HTML STARTUP*/
-#index-body-color {
     color: #000000;
-    background-color: #6EFFCF;
+    background-color: #add8e6;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 
 
-/*@media*/
 
-
-/*index.html element 2*/
-.page-header {
-    display: inline;
-    width: 100%;
-    /*no noticeable effect for this property. Will leave it for now*/
-    padding: 0px;
+.navigation-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    position: fixed;
+    margin-left: 260px;
 }
-/*index.html element 2*/
-/*.page-header_item {*/
-/*    flex: 0 1 200px;*/
-/*}*/
-/*index.html element not found with this class
-on work.html element 4*/
-/*.page-header_item:last-child {*/
-/*    flex-grow: 2;*/
-/*    text-align: right;*/
-/*}*/
 
 /*index.html logo and development transform animation alternate element 3*/
 @-webkit-keyframes development {
     0% {
-        fill: rotate(0deg);
     }
 
     100% {
-        fill: rotate(50deg);
+        transform: rotate(50deg);
     }
 }
 @keyframes development {
     0% {
-        fill: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     100% {
-        fill: rotate(50deg);
+        transform: rotate(50deg);
     }
 }
-/*index.html, about.html, contact.html, work.html*/
-#development {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-animation-name: development;
-    animation-name: development;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    margin: 10px 0 90px 10px;
+/*index.html, about.html, contact.html, work.html, not working.*/
+.development {
+    /*animation-name: development;*/
+    /*animation-duration: 5s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction: alternate;*/
+    /*animation-timing-function: linear;*/
+    position: relative;
+    top: 78px;
 }
 
-#development-span {
-    margin-top: 80px;
-    font-weight: italic;
-}
 
 /*index.html*/
-#img1 {
+.img1 {
     width: 100px;
     height: 100px;
 }
@@ -159,7 +88,7 @@ on work.html element 4*/
         fill: #6EFFCF;
     }
     25% {
-        fill: #ffffff;
+        fill: #ffc0cb;
     }
     75% {
         fill: #ffff00;
@@ -174,7 +103,7 @@ on work.html element 4*/
         fill: #6EFFCF;
     }
     25% {
-        fill: #ffffff;
+        fill: #ffc0cb;
     }
     75% {
         fill: #ffff00;
@@ -192,7 +121,6 @@ svg {
 }
 
 svg:hover {
-    -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
@@ -208,52 +136,49 @@ svg:hover {
     animation-timing-function: linear;
 }
 
-nav .navigation-list {
-    float: right;
-    margin-left: 350px;
-}
-
-.navigation-list li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .navigation-list a {
     text-decoration: none;
+    color: #000000;
 }
 
 /*buttons for index.html*/
-#index-button {
+.nav-buttons {
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
-    color: #ffffff;
-    background-color: #000000;
+    background-color: #ffffff;
 }
-#index-button:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+
+.nav-buttons a {
+    color: #000000;
+}
+
+.nav-buttons:hover {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
     -webkit-transition-property: color;
     -o-transition-property: color;
     transition-property: color;
-    -webkit-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    background-color: #00008b;
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    background-color: #ffc0cb;
 }
 
 
 .profile-pic {
-    border-radius: 50%;
+    margin-top: 150px;
 }
 
-#profile-pic {
+
+#index-profile-pic {
     float: right;
     height: 250px;
     width: 250px;
-    /*border-radius: 50%;*/
+    border-radius: 50%;
 }
+
+
 
 /*Hell world statement intro statement index.html*/
 @-webkit-keyframes colorChange {
@@ -292,118 +217,78 @@ nav .navigation-list {
 }
 
 /*Color animation change index.html*/
-#hello-world  {
+#hello-border  {
     font-style: inherit;
-    font-size: 2em;
+    font-size: 20px;
     -webkit-animation: colorChange 5s infinite;
     animation: colorChange 5s infinite;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ffc0cb;
+    border: 2px solid #6496ed;
 }
-
-/*index.html logo and development transform animation alternate*/
-/*@keyframes development {*/
-/*    from {*/
-/*        transform: rotate(0deg);*/
-/*    }*/
-
-/*    to {*/
-/*        transform: rotate(2deg);*/
-/*    }*/
-
-/*}*/
-/*index.html*/
-/*#development {*/
-/*    animation: 5s development 3 alternate linear;*/
-/*}*/
-/*Applies to all linked pages*/
-
-
-
-
-/*// <uniquifier>: Use a unique and descriptive class name*/
-/*// <weight>: Use a value from 400 to 800*/
-
-
-
 
 /*About.html*/
-/*Reference to about.html*/
-@-webkit-keyframes development1 {
-    0% {
-        top: 0px;
-    }
-
-
-    100% {
-        bottom: 2px;
-    }
-}
-@keyframes development1 {
-    0% {
-        top: 0px;
-    }
-
-
-    100% {
-        bottom: 2px;
-    }
-}
-
-#development {
-    /*font-weight: normal;*/
-    /*margin-top: 80px;*/
-    /*animation-name: development1;*/
-    /*animation-duration: 5s;*/
-    /*animation-direction: alternate;*/
-    /*animation-iteration-count: infinite;*/
-}
-/*margin for index.html nav element*/
-
-#footer-scale:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-
-/*About.html*/
-.resume-button {
-    display: block;
+#resume-button {
     border: #000000 solid 2px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #000000;
-    text-align: right;
-    /*clear: both;*/
-    /*top: 490px;*/
+    background-color: #ffffff;
     text-decoration: none;
+    position: relative;
+    top: 100px;
+    left: 335px;
+    color: #000000;
 }
 
-.resume-button:hover {
+#resume-button:hover {
     background-color:  #6496ed;
     color: #000000;
 }
-/*About.html*/
-.whole-table {
-    margin: 0px;
-    border: solid 2px black;
+
+#div-about-paragraph {
+    position: relative;
+    left: 25px;
+    margin-top: 200px;
 }
+
+b {
+    color: #ffffff;
+    background-color: #ffc0cb
+}
+
+#about-Brian, #about-eye-development, #core-services {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 30%;
+}
+
+
+/*About.html*/
+#skills-and-experience {
+    display: block;
+    margin: 100px 0 0 30%;
+    text-decoration: underline;
+}
+
+
 /*about.html*/
-main table {
-    margin: 0px;
+
+td, th {
     border: solid 2px black;
 }
 
+th {
+    background-color: #ffc0cb;
+}
+
+
 #about-paragraph {
-    margin: 75px 0 0 0;
     line-height: 1.8;
 }
 
 #about-paragraph:hover {
-    -webkit-transition: background-color;
-    -o-transition: background-color;
-    transition: background-color;
+    background-color: yellow;
 }
 
 
@@ -413,116 +298,101 @@ main table {
 
 
 /*Contact.html*/
+#contact-h1 {
+    margin-left: 500px;
+}
+#form-div {
+    margin:10px 0 0 500px;
+}
+
+#form-form {
+    line-height: 100px;
+}
+
+#contact-div {
+    margin: 0 0 20px 500px;
+
+}
+
+#contact-div-button {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+}
+
+
+#contact-div a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+}
 
 a:visited {
-    color: #ffffff;
+    /*color: var(--red);*/
 }
+
 a:hover, a:focus {
     text-decoration: none;
 }
 
 a:active {
-    color: #ffffff;
+    color: #ff0000;
 }
 
 /*examples for buttons on html*/
-button {
-    /*Buttons for index.htmll, about.html*/
-    /*overwrites browser defaults and resets the border*/
-    border: none;
-    display: inline-block;
-    /*takes the front from the outer container*/
-    font-family: inherit;
-    /*styles the button*/
-    background-color: #00008b;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    /*width of the border, type, color*/
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    -webkit-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-}
-
-button:hover,
-button:focus,
-.button:hover,
-.button:focus,
-.home-about-contact
-{
-    cursor:pointer;
-    opacity: 0.8;
-}
-
-/*example of secondary button*/
-/*.secondary-button {*/
-/*    background-color: #e0b354;*/
-/*    color: #2b2b2b;*/
+/*#default-buttons {*/
+/*    display: inline-block;*/
+/*    font-family: inherit;*/
+/*    background-color: var(--white);*/
+/*    color: var(--white);*/
+/*    text-decoration: none;*/
+/*    padding: 10px;*/
+/*    border-radius: 3px;*/
+/*    transition: opacity 0.2s;*/
 /*}*/
 
-/*Removed to conserve and create less complex space*/
-/*#brian-header {*/
-/*    position: relative;*/
-/*    left: 650px;*/
-/*    margin: 0px;*/
+/*#default-buttons:hover,*/
+/*#default-buttons:focus,*/
+/*#default-buttons:hover,*/
+/*#default-buttons:focus,*/
+/*                {*/
+/*    cursor:pointer;*/
+/*    opacity: 0.8;*/
 /*}*/
 
 
-.float-left {
-    display: inline-block;
+#linkedin {
+    width: 32px;
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+
+#git {
+    width: 32px;
 }
+
+#linkedin:hover, #git:hover {
+    transform: scale(1.2);
+
+}
+
+
+
+main {
+    display: -ms-grid;
+    display: grid;
+    align-content: space-evenly;
+}
+
+
+
+
+
 
 .page-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    clear: both;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-}
-
-/*.grid {*/
-/*    display: grid;*/
-/*    grid-template-columns: 300px 300px 300px;*/
-/*    grid-template-rows: 300px 30px;*/
-/*}*/
-
-/*.grid-item {*/
-/*    background-color: #888888;*/
-/*}*/
-
-/*sun class in about.html*/
-@-webkit-keyframes color-change {
-    0% {
-        fill: #6EFFCF;
-    }
-    50% {
-        to: #ffff00;
-    }
-    100% {
-        fill: #ff0000;
-    }
-}
-@keyframes color-change {
-    0% {
-        fill: #6EFFCF;
-    }
-    50% {
-        to: #ffff00;
-    }
-    100% {
-        fill: #ff0000;
-    }
+    display: block;
+    top: 200px;
+    margin: 100px 350px 100px 460px;
 }
 
 
@@ -530,22 +400,6 @@ button:focus,
 
 
 
-
-
-body.index-About-pages {
-    color: #000000;
-    background-color: #a9a9a9;
-}
-
-
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#skilllevel {
-
-}
 
 /*work.html*/
 #work {
@@ -553,7 +407,6 @@ body.index-About-pages {
 }
 .grid-item:hover {
     background-color: #6496ed;
-    -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
