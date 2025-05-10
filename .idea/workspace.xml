@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241d2fb6-a846-4492-a60f-ac98bed7efe8" name="Changes" comment="work.hmtl added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Front-End Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updated_Resumeclearancejobscopyadobe.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about Brian Mcintosh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact Brian Mcintosh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tota11y-0.1.6/tota11y-0.1.6/.arcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tota11y-0.1.6/tota11y-0.1.6/.arclint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tota11y-0.1.6/tota11y-0.1.6/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tota11y-0.1.6/tota11y-0.1.6/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tota11y-0.1.6/tota11y-0.1.6/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.production.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.production.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +52,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "Merging gh-pages",
+    "git-widget-placeholder": "gh-pages",
     "js.buildTools.grunt.grunt-cli.package": "",
     "last_opened_file_path": "C:/Users/brian/OneDrive/Documents/WebStorm/Front-End Project/css",
     "node.js.detected.package.eslint": "true",
