@@ -11,7 +11,7 @@
     /*fonts*/
 }
 
-*,
+*
 ::before,
 ::after {
     box-sizing: border-box;
@@ -390,9 +390,12 @@ main {
 
 
 .page-footer {
-    display: block;
-    top: 200px;
-    margin: 100px 350px 100px 460px;
+    display: flex;
+    /*top: 200px;*/
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 
