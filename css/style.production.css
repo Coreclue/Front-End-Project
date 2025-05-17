@@ -15,6 +15,7 @@
 ::before,
 ::after {
     box-sizing: border-box;
+    margin: 0;
 }
 
 /*INDEX.HTML*/
@@ -43,8 +44,7 @@
     display: -ms-flexbox;
     display: flex;
     list-style: none;
-    position: fixed;
-    margin-left: 260px;
+    margin-inline-start: 305px;
 }
 
 /*index.html logo and development transform animation alternate element 3*/
@@ -114,7 +114,7 @@
 }
 
 svg {
-    margin-left: 350px;
+
     -webkit-transition: ease 0.5s;
     -o-transition: ease 0.5s;
     transition: ease 0.5s;
