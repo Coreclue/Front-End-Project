@@ -44,8 +44,10 @@
     display: -ms-flexbox;
     display: flex;
     list-style: none;
-    margin-inline-start: 305px;
+    margin-inline-start: 0;
 }
+
+
 
 /*index.html logo and development transform animation alternate element 3*/
 @-webkit-keyframes development {
@@ -113,12 +115,7 @@
     }
 }
 
-svg {
-
-    -webkit-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
-    transition: ease 0.5s;
-}
+svg {-webkit-transition: ease 0.5s;-o-transition: ease 0.5s;transition: ease 0.5s;overflow: visible;max-height: 200px;max-width: 200px;}
 
 svg:hover {
     -ms-transform: rotate(360deg);
