@@ -115,7 +115,13 @@
     }
 }
 
-svg {-webkit-transition: ease 0.5s;-o-transition: ease 0.5s;transition: ease 0.5s;overflow: visible;max-height: 200px;max-width: 200px;}
+svg { -webkit-transition: ease 0.5s;
+     -o-transition: ease 0.5s;
+     transition: ease 0.5s;overflow: visible;
+     max-height: 200px;
+     max-width: 200px;
+     margin-left: auto;
+    }
 
 svg:hover {
     -ms-transform: rotate(360deg);
@@ -133,6 +139,10 @@ svg:hover {
     animation-timing-function: linear;
 }
 
+.nav-main {
+    margin-left: auto;
+}
+
 .navigation-list a {
     text-decoration: none;
     color: #000000;
@@ -144,6 +154,7 @@ svg:hover {
     padding-left: 10px;
     text-align: center;
     background-color: #ffffff;
+    border: solid 1px #000000;
 }
 
 .nav-buttons a {
@@ -225,23 +236,6 @@ svg:hover {
 }
 
 /*About.html*/
-#resume-button {
-    border: #000000 solid 2px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    text-decoration: none;
-    position: relative;
-    top: 100px;
-    left: 335px;
-    color: #000000;
-}
-
-#resume-button:hover {
-    background-color:  #6496ed;
-    color: #000000;
-}
-
 #div-about-paragraph {
     position: relative;
     left: 25px;
@@ -296,10 +290,10 @@ th {
 
 /*Contact.html*/
 #contact-h1 {
-    margin-left: 500px;
+    margin-left: 50%;
 }
 #form-div {
-    margin:10px 0 0 500px;
+    margin-left: 50%;
 }
 
 #form-form {
@@ -307,7 +301,7 @@ th {
 }
 
 #contact-div {
-    margin: 0 0 20px 500px;
+    margin-left: 50%;
 
 }
 
@@ -438,8 +432,5 @@ main {
     .eyelid {
         max-width: 100px;
     }
-    
 
-    
 }
-

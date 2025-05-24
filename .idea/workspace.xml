@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="241d2fb6-a846-4492-a60f-ac98bed7efe8" name="Changes" comment="work.hmtl added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about Brian Mcintosh.html" beforeDir="false" afterPath="$PROJECT_DIR$/about Brian Mcintosh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact Brian Mcintosh.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact Brian Mcintosh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.production.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.production.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,11 @@
     <fileColor scope="Project Files" color="Blue" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -52,7 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "gh-pages",
+    "git-widget-placeholder": "gh-pages-testing",
     "js.buildTools.grunt.grunt-cli.package": "",
     "last_opened_file_path": "C:/Users/brian/OneDrive/Documents/WebStorm/Front-End Project/css",
     "node.js.detected.package.eslint": "true",
@@ -60,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -160,6 +170,8 @@
       <workItem from="1746382997001" duration="19288000" />
       <workItem from="1746410422309" duration="11311000" />
       <workItem from="1746423271167" duration="1730000" />
+      <workItem from="1747488210762" duration="5238000" />
+      <workItem from="1747952034678" duration="16495000" />
     </task>
     <task id="LOCAL-00002" summary="work.hmtl added">
       <option name="closed" value="true" />
@@ -169,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738794338971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="work.hmtl added">
+      <option name="closed" value="true" />
+      <created>1747956980449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747956980449</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +206,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Webmain" />
+                        <option value="gh-pages" />
                       </list>
                     </value>
                   </entry>
