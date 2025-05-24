@@ -410,3 +410,36 @@ main {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+@media (max-width: 500px) {
+    .eb-garamond {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .flex-container {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .nav-main {
+       display: flex; 
+        
+
+    }
+
+      .navigation-list {
+        flex-direction: column;
+    }
+
+    .eyelid {
+        max-width: 100px;
+    }
+    
+
+    
+}
+
