@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="241d2fb6-a846-4492-a60f-ac98bed7efe8" name="Changes" comment="work.hmtl added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about Brian Mcintosh.html" beforeDir="false" afterPath="$PROJECT_DIR$/about Brian Mcintosh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact Brian Mcintosh.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact Brian Mcintosh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.production.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.production.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "gh-pages-testing",
+    "git-widget-placeholder": "gh-pages",
     "js.buildTools.grunt.grunt-cli.package": "",
     "last_opened_file_path": "C:/Users/brian/OneDrive/Documents/WebStorm/Front-End Project/css",
     "node.js.detected.package.eslint": "true",
