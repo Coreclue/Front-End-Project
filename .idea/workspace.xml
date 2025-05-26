@@ -58,7 +58,7 @@
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "gh-pages",
     "js.buildTools.grunt.grunt-cli.package": "",
-    "last_opened_file_path": "C:/Users/brian/OneDrive/Documents/WebStorm/Front-End Project/css",
+    "last_opened_file_path": "C:/Users/brian/OneDrive/Documents/Github/pokemon-app.js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,7 +92,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -166,6 +166,7 @@
       <workItem from="1746423271167" duration="1730000" />
       <workItem from="1747488210762" duration="5238000" />
       <workItem from="1747952034678" duration="16495000" />
+      <workItem from="1748270656879" duration="111000" />
     </task>
     <task id="LOCAL-00002" summary="work.hmtl added">
       <option name="closed" value="true" />
