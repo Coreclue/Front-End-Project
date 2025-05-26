@@ -208,19 +208,19 @@ svg:hover {
 }
 @keyframes colorChange {
     10%{
-        color: #ff0000;
+        color: #000000;
     }
     25% {
-        color: #add8e6;
+        color: #ffffff;
     }
     50% {
-        color: #008000;
+        color: #000000;
     }
     75% {
-        color: #ffff00;
+        color: #ffffff;
     }
     100% {
-        color: #00008b;
+        color: #000000;
     }
 }
 
@@ -231,7 +231,7 @@ svg:hover {
     -webkit-animation: colorChange 5s infinite;
     animation: colorChange 5s infinite;
     text-align: center;
-    background-color: #ffc0cb;
+    background-color: cornflowerblue;
     border: 2px solid #6496ed;
 }
 
@@ -279,7 +279,7 @@ th {
 }
 
 #about-paragraph:hover {
-    background-color: yellow;
+    background-color: orange;
 }
 
 
