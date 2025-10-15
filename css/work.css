@@ -9,12 +9,6 @@
     text-align: center;
 }
 
-.page-footer {
-    display: flex;
-    clear: both;
-    flex-direction: column;
-    text-align: center;
-}
 
 @media all and (max-width: 500px) {
     .grid {
@@ -37,9 +31,4 @@
     h1 {
         font-size: 22px;
     }
-}
-
-button,
-.button {
-
 }
