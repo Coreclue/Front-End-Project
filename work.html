@@ -3,77 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>work</title>
-    <link rel="stylesheet" href="css/work.css" text="text/css">
-    <link rel="stylesheet" href="css/styles.css" text="text/css">
+    <title>Projects</title>
+    <link rel="shortcut icon" href="/imgs/favicon-32x32.png">
+    <link rel="stylesheet" href="css/work.css" type="text/css">
     <link href="./css/style.production.css" rel="stylesheet" type="text/css">
-
 </head>
 
-<body class="eb-garamond" id="index-body-color">
-<header class="page-header">
-    <!--    styled on stylesheet. -->
-    <img src="./imgs/favicon-32x32.png"  alt="eye Development" id="img1" ><span id="development-span">Development</span>
-    <nav role="navigation" class="page-header_item">
+<body class="eb-garamond">
+<header class="flex-container">
+    <img src="./imgs/favicon-32x32.png"  alt="eye Development" class="img1" ><span class="development">Development</span>
+    <svg class="eyelid" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Eye Outline -->
+        <ellipse cx="100" cy="100" rx="80" ry="50" stroke="black" stroke-width="5" fill="white"/>
+        <!-- Pupil -->
+        <circle class="pupil" cx="100" cy="100" r="20" fill="green"/>
+    </svg>
+    <nav class="nav-main">
         <!--        reference style sheet-->
         <ul role="menubar" class="navigation-list">
-            <li id="index-button"><a href="index.html">Home</a></li>
-            <li id="index-button"><a href="about.html" aria-label="About-page">About</a></li>
-            <li id="index-button"><a href="contact.html">Contact</a></li>
-            <li id="index-button"><a href="work.html"></a> Work</li>
+            <li class="nav-buttons"><a href="index.html">Home</a></li>
+            <li class="nav-buttons"><a href="about-brian-mcintosh.html" aria-label="About-page">About</a></li>
+            <li class="nav-buttons"><a href="contact-brian-mcintosh.html">Contact</a></li>
+            <li class="nav-buttons">
+                <a href="work.html">Portfolio Work</a>
+            </li>
         </ul>
     </nav>
 </header>
 <!--Main Content Block-->
 <section>
-    <h1 id="work">Work</h1>
-<div class="grid">
-<!-- Grid Items will live here -->
-    <div class="grid-item">
-        <h2>Mobile Web App</h2>
-        <p>
-            Within this project, I was responsible for the frontend. It's written in React.js. Additionally, I've created the HTML and CSS templates.
-        </p>
-        <a href="#">See Project on Github</a>
+    <div class="grid">
+        <!-- Grid Items will live here -->
+        <div class="grid-item">
+            <h2>Pokemon index</h2>
+            <p>
+                Within this project, I was responsible for the frontend. It's written in React.js. Additionally, I've created the HTML and CSS templates.
+            </p>
+            <a href="https://coreclue.github.io/Pokemon-Index/" target="_blank">See Project on Github</a>
+        </div>
+        <div class="grid-item">
+            <h2>Project 2</h2>
+            <p>This space is reserved for project 2</p>
+            <a href="#">Project 2</a>
+        </div>
+        <div class="grid-item">
+            <h2>Project 3</h2>
+            <p>This space is reserved for project 3</p>
+            <a href="#">Project 3</a>
+        </div>
+        <div class="grid-item">
+            <h2>Project 4</h2>
+            <p>This space is reserved for project 4</p>
+            <a href="#">Project 4</a>
+        </div>
+        <div class="grid-item">
+            <h2>Project 5</h2>
+            <p>This space is reserved for project 5</p>
+            <a href="#">Project 5</a>
+        </div>
+        <div class="grid-item">
+            <h2>Project 6</h2>
+            <p>This space is reserved for project 6</p>
+            <a href="#">Project 6</a>
+        </div>
     </div>
-    <div class="grid-item">
-        <h2>Project 2</h2>
-        <p>This space is reserved for project 2</p>
-        <a href="#">Project 2</a>
-    </div>
-    <div class="grid-item">
-        <h2>Project 3</h2>
-        <p>This space is reserved for project 3</p>
-        <a href="#">Project 3</a>
-    </div>
-    <div class="grid-item">
-        <h2>Project 4</h2>
-        <p>This space is reserved for project 4</p>
-        <a href="#">Project 4</a>
-    </div>
-    <div class="grid-item">
-        <h2>Project 5</h2>
-        <p>This space is reserved for project 5</p>
-        <a href="#">Project 5</a>
-    </div>
-    <div class="grid-item">
-        <h2>Project 6</h2>
-        <p>This space is reserved for project 6</p>
-        <a href="#">Project 6</a>
-    </div>
-</div>
 </section>
-<!-- Footer with links to social media profiles -->
-<footer class="page-footer" id="">
+
+<footer class="page-footer">
     <h2>Find me on</h2>
     <div class="social-icons">
         <a href="https://www.linkedin.com/in/dev-pro/">
-            <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" width="42px" height="42px" id="footer-scale">
+            <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" id="linkedin">
         </a>
-        <a href="https://github.com/Coreclue/Dev_pro" id="git">
-            <img src="./imgs/8546919_github_square_icon.svg" alt="github" width="32px" height="32px" id="footer-scale">
+        <a href="https://github.com/Coreclue" target="_blank">
+            <img src="./imgs/8546919_github_square_icon.svg" alt="github" id="git">
         </a>
     </div>
 </footer>
+<script src="./js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
 </body>
 </html>
