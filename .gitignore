@@ -1,3 +1,4 @@
+.idea
 .idea/workspace.xml
 .idea/inspectionProfiles
 .idea/workspace-Bluerun-2.xml
@@ -7,8 +8,8 @@ idea/.gitignoredea/Website.iml
 .idea/modules.xml
 .idea/vcs.xml
 workspace.xml
-.js/tota11y-0.1.6/tota11y-0.1.6/.arcconfig
-.js/tota11y-0.1.6/tota11y-0.1.6/.arclint
-.js/tota11y-0.1.6/tota11y-0.1.6/.eslintrc
-.js/tota11y-0.1.6/tota11y-0.1.6/.gitignore 
- js/tota11y-0.1.6/tota11y-0.1.6/.travis.y
+js/tota11y-0.1.6/tota11y-0.1.6/.arcconfig
+js/tota11y-0.1.6/tota11y-0.1.6/.arclint
+js/tota11y-0.1.6/tota11y-0.1.6/.eslintrc
+js/tota11y-0.1.6/tota11y-0.1.6/.gitignore 
+js/tota11y-0.1.6/tota11y-0.1.6/.travis.yml
