@@ -1,25 +1,38 @@
-Informally, Plain Sight, Professional Development Specialist. Welcome! Here you will learn about quality presence in the form of interactive web interfaces, passionate technical reasioning and logic.
+# Brian McIntosh — Front-End Developer
 
-Divine scope of way thinking, and keeping some technical advantage in operating, empowering through technical advancement and building capacity through digital designs and congitive exploration. 
+Hi — I'm Brian. This repository holds a small portfolio site showcasing responsive, accessible front-end work and examples of interactive projects.
 
-The Home page introduces my career and brand company and profile links.
+Key pages
+- Home — brief introduction and links to projects
+- About — background, skills, and focus areas
+- Work — portfolio entries and project details
+- Contact — ways to reach me (email / LinkedIn / GitHub)
 
-The About page expands more on the individual characteristics, purpose, passiosns and targets links.   
+Selected projects
+- Interactive Pokemon Index — DOM manipulation and API usage
+- Interactive ToDo List — jQuery-driven UI
+- Node.js REST API project — backend endpoints and integration
+- React-based frontend examples — component-driven UIs
+- Test-driven components and data visualizations
 
-The Contact page provides contact information. Use the contact form for more details.
+Running locally
+1. Quick (no install): run a static server with npx:
 
-The Portfolio page list six projects craftly built. 
+```bash
+npx http-server -c-1 . -p 8080
+# open http://localhost:8080 in your browser
+```
 
-#1 Interactive Pokemon-Index.
+2. Alternative (serve):
 
-#2 Digital Interactive-ToDo-List using jQuery.
+```bash
+npx serve -s . -l 8080
+```
 
-#3 Complete built backend server using node.js, REST and API Endpoints.
+Contact
+- LinkedIn: https://www.linkedin.com/in/dev-pro/
+- GitHub: https://github.com/Coreclue
 
-#4 Use JavaScript to build powerful interfaces for server-side-systems. Using React built frontend API.
+If you'd like, I can help craft a one-page CV section or prepare a deploy-ready version for GitHub Pages.
 
-#5 Test driven development to build progresive apps, and data visualization.
-
-#6 Add native Javascript applications for mobile app building. 
-
-Brian
+— Brian
