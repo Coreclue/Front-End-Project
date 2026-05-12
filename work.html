@@ -1,85 +1,108 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects</title>
     <link rel="shortcut icon" href="/imgs/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/work.css" type="text/css">
     <link href="./css/style.production.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="eb-garamond">
-<header class="flex-container">
-    <img src="./imgs/favicon-32x32.png"  alt="eye Development" class="img1" ><span class="development">Development</span>
-    <svg class="eyelid" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <!-- Eye Outline -->
-        <ellipse cx="100" cy="100" rx="80" ry="50" stroke="black" stroke-width="5" fill="white"/>
-        <!-- Pupil -->
-        <circle class="pupil" cx="100" cy="100" r="20" fill="green"/>
-    </svg>
-    <nav class="nav-main">
-        <!--        reference style sheet-->
-        <ul role="menubar" class="navigation-list">
-            <li class="nav-buttons"><a href="index.html">Home</a></li>
-            <li class="nav-buttons"><a href="about-brian-mcintosh.html" aria-label="About-page">About</a></li>
-            <li class="nav-buttons"><a href="contact-brian-mcintosh.html">Contact</a></li>
-            <li class="nav-buttons">
-                <a href="work.html">Portfolio Work</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<!--Main Content Block-->
-<section>
-    <div class="grid">
-        <!-- Grid Items will live here -->
-        <div class="grid-item">
-            <h2>Pokemon index</h2>
-            <p>
-                Within this project, I was responsible for the frontend. It's written in React.js. Additionally, I've created the HTML and CSS templates.
-            </p>
-            <a href="https://coreclue.github.io/Pokemon-Index/" target="_blank">See Project on Github</a>
-        </div>
-        <div class="grid-item">
-            <h2>Project 2</h2>
-            <p>This space is reserved for project 2</p>
-            <a href="#">Project 2</a>
-        </div>
-        <div class="grid-item">
-            <h2>Project 3</h2>
-            <p>This space is reserved for project 3</p>
-            <a href="#">Project 3</a>
-        </div>
-        <div class="grid-item">
-            <h2>Project 4</h2>
-            <p>This space is reserved for project 4</p>
-            <a href="#">Project 4</a>
-        </div>
-        <div class="grid-item">
-            <h2>Project 5</h2>
-            <p>This space is reserved for project 5</p>
-            <a href="#">Project 5</a>
-        </div>
-        <div class="grid-item">
-            <h2>Project 6</h2>
-            <p>This space is reserved for project 6</p>
-            <a href="#">Project 6</a>
-        </div>
-    </div>
-</section>
+    <header class="flex-container">
+        <img src="./imgs/favicon-32x32.png" alt="eye Development" class="img1"><span
+            class="development">Development</span>
+        <svg class="eyelid" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- Eye Outline -->
+            <ellipse cx="100" cy="100" rx="80" ry="50" stroke="black" stroke-width="5" fill="white" />
+            <!-- Pupil -->
+            <circle class="pupil" cx="100" cy="100" r="20" fill="green" />
+        </svg>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" role="navigation">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<footer class="page-footer">
-    <h2>Find me on</h2>
-    <div class="social-icons">
-        <a href="https://www.linkedin.com/in/dev-pro/">
-            <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" id="linkedin">
-        </a>
-        <a href="https://github.com/Coreclue" target="_blank">
-            <img src="./imgs/8546919_github_square_icon.svg" alt="github" id="git">
-        </a>
-    </div>
-</footer>
-<script src="./js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-brian-mcintosh.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="work.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-brian-mcintosh.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Brian McIntosh Resume FINAL copy.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Main Content Block-->
+    <section>
+        <div class="grid">
+            <!-- Grid Items will live here -->
+            <div class="grid-item">
+                <h2>Pokemon index</h2>
+                <p>
+                    Within this project, I was responsible for the frontend. It's written in React.js. Additionally,
+                    I've created the HTML and CSS templates.
+                </p>
+                <a href="https://coreclue.github.io/Pokemon-Index/" target="_blank">See Project on Github</a>
+            </div>
+            <div class="grid-item">
+                <h2>Project 2</h2>
+                <p>This space is reserved for project 2</p>
+                <a href="#">Project 2</a>
+            </div>
+            <div class="grid-item">
+                <h2>Project 3</h2>
+                <p>This space is reserved for project 3</p>
+                <a href="#">Project 3</a>
+            </div>
+            <div class="grid-item">
+                <h2>Project 4</h2>
+                <p>This space is reserved for project 4</p>
+                <a href="#">Project 4</a>
+            </div>
+            <div class="grid-item">
+                <h2>Project 5</h2>
+                <p>This space is reserved for project 5</p>
+                <a href="#">Project 5</a>
+            </div>
+            <div class="grid-item">
+                <h2>Project 6</h2>
+                <p>This space is reserved for project 6</p>
+                <a href="#">Project 6</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <h2>Find me on</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/dev-pro/">
+                <img src="./imgs/294671_linkedin_icon.svg" alt="Linkedin" id="linkedin">
+            </a>
+            <a href="https://github.com/Coreclue" target="_blank">
+                <img src="./imgs/8546919_github_square_icon.svg" alt="github" id="git">
+            </a>
+        </div>
+    </footer>
+    <script src="./js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
 </body>
+
 </html>
