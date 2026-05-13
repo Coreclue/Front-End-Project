@@ -141,6 +141,8 @@ svg:hover {
 
 .nav-main {
     margin-left: auto;
+    display: flex; 
+        
 }
 
 .navigation-list a {
@@ -331,26 +333,6 @@ a:active {
     color: #ff0000;
 }
 
-/*examples for buttons on html*/
-/*#default-buttons {*/
-/*    display: inline-block;*/
-/*    font-family: inherit;*/
-/*    background-color: var(--white);*/
-/*    color: var(--white);*/
-/*    text-decoration: none;*/
-/*    padding: 10px;*/
-/*    border-radius: 3px;*/
-/*    transition: opacity 0.2s;*/
-/*}*/
-
-/*#default-buttons:hover,*/
-/*#default-buttons:focus,*/
-/*#default-buttons:hover,*/
-/*#default-buttons:focus,*/
-/*                {*/
-/*    cursor:pointer;*/
-/*    opacity: 0.8;*/
-/*}*/
 
 
 #linkedin {
@@ -382,7 +364,6 @@ main {
 
 .page-footer {
     display: flex;
-    /*top: 200px;*/
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -419,11 +400,6 @@ main {
 
     }
 
-    .nav-main {
-       display: flex; 
-        
-
-    }
 
       .navigation-list {
         flex-direction: column;
