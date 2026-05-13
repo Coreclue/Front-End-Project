@@ -15,3 +15,4 @@ js/tota11y-0.1.6/tota11y-0.1.6/.gitignore
 js/tota11y-0.1.6/tota11y-0.1.6/.travis.yml
 Brian Mcintosh Resume Final copy.pdf
 .DS_Store
+.test.js
