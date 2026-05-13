@@ -18,7 +18,7 @@
   <header class="flex-container">
     <img src="imgs/favicon-32x32.png" alt="eye Development" class="img1" /><span class="development">Development</span>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <svg class="eyelid" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
       <!-- Eye Outline -->
@@ -27,23 +27,21 @@
       <circle class="pupil" cx="100" cy="100" r="20" fill="green" />
     </svg>
 
-    <nav class="nav-main">
-      <ul role="menubar" class="navigation-list">
-        <li class="nav-buttons"><a href="index.html">Home</a></li>
-        <li class="nav-buttons">
-          <a href="./about-brian-mcintosh.html" aria-label="About-Page">About</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="contact-brian-mcintosh.html">Contact</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="work.html">Portfolio Work</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="./Brian McIntosh Resume FINAL copy.pdf" download target="_blank">See Resume</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" role="navigation">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-brian-mcintosh.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="work.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact-brian-mcintosh.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <br />
@@ -130,7 +128,7 @@
     </div>
   </footer>
   <script src="./js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
