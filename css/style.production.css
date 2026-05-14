@@ -51,13 +51,13 @@
 
 /*index.html logo and development transform animation alternate element 3*/
 @-webkit-keyframes development {
-    0% {
-    }
+    0% {}
 
     100% {
         transform: rotate(50deg);
     }
 }
+
 @keyframes development {
     0% {
         transform: rotate(0deg);
@@ -67,6 +67,7 @@
         transform: rotate(50deg);
     }
 }
+
 /*index.html, about.html, contact.html, work.html, not working.*/
 .development {
     /*animation-name: development;*/
@@ -89,12 +90,15 @@
     0% {
         fill: #6EFFCF;
     }
+
     25% {
         fill: #ffc0cb;
     }
+
     75% {
         fill: #ffff00;
     }
+
     100% {
         fill: #000000;
     }
@@ -104,24 +108,29 @@
     0% {
         fill: #6EFFCF;
     }
+
     25% {
         fill: #ffc0cb;
     }
+
     75% {
         fill: #ffff00;
     }
+
     100% {
         fill: #000000;
     }
 }
 
-svg { -webkit-transition: ease 0.5s;
-     -o-transition: ease 0.5s;
-     transition: ease 0.5s;overflow: visible;
-     max-height: 200px;
-     max-width: 200px;
-     margin-left: auto;
-    }
+svg {
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+    overflow: visible;
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: auto;
+}
 
 svg:hover {
     -ms-transform: rotate(360deg);
@@ -141,8 +150,8 @@ svg:hover {
 
 .nav-main {
     margin-left: auto;
-    display: flex; 
-        
+    display: flex;
+
 }
 
 .navigation-list a {
@@ -192,42 +201,51 @@ svg:hover {
 
 /*Hell world statement intro statement index.html*/
 @-webkit-keyframes colorChange {
-    10%{
+    10% {
         color: #ff0000;
     }
+
     25% {
         color: #add8e6;
     }
+
     50% {
         color: #008000;
     }
+
     75% {
         color: #ffff00;
     }
+
     100% {
         color: #00008b;
     }
 }
+
 @keyframes colorChange {
-    10%{
+    10% {
         color: #000000;
     }
+
     25% {
         color: #ffffff;
     }
+
     50% {
         color: #000000;
     }
+
     75% {
         color: #ffffff;
     }
+
     100% {
         color: #000000;
     }
 }
 
 /*Color animation change index.html*/
-#hello-border  {
+#hello-border {
     font-style: inherit;
     font-size: 20px;
     -webkit-animation: colorChange 5s infinite;
@@ -249,7 +267,9 @@ b {
     background-color: #ffc0cb
 }
 
-#about-Brian, #about-eye-development, #core-services {
+#about-Brian,
+#about-eye-development,
+#core-services {
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -267,7 +287,8 @@ b {
 
 /*about.html*/
 
-td, th {
+td,
+th {
     border: solid 2px black;
 }
 
@@ -294,6 +315,7 @@ th {
 #contact-h1 {
     margin-left: 50%;
 }
+
 #form-div {
     margin-left: 50%;
 }
@@ -325,7 +347,8 @@ a:visited {
     /*color: var(--red);*/
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     text-decoration: none;
 }
 
@@ -344,7 +367,8 @@ a:active {
     width: 32px;
 }
 
-#linkedin:hover, #git:hover {
+#linkedin:hover,
+#git:hover {
     transform: scale(1.2);
 
 }
@@ -354,7 +378,7 @@ a:active {
 main {
     display: -ms-grid;
     display: grid;
-    align-content: space-evenly;
+    place-items: center;
 }
 
 
@@ -370,6 +394,13 @@ main {
     flex-flow: column;
 }
 
+  .eyelid {
+        max-width: 100px;
+        place-items: center;
+    }
+    
+
+
 
 
 
@@ -380,6 +411,7 @@ main {
 #work {
     text-decoration: underline;
 }
+
 .grid-item:hover {
     background-color: #6496ed;
     -ms-transform: scale(1.1);
@@ -401,12 +433,15 @@ main {
     }
 
 
-      .navigation-list {
+    .navigation-list {
         flex-direction: column;
     }
 
     .eyelid {
         max-width: 100px;
+        place-items: center;
     }
+    
 
 }
+
