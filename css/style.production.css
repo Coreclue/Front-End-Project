@@ -11,8 +11,7 @@
     /*fonts*/
 }
 
-*
-::before,
+*::before,
 ::after {
     box-sizing: border-box;
     margin: 0;
@@ -280,8 +279,8 @@ b {
 /*About.html*/
 #skills-and-experience {
     display: block;
-    margin: 100px 0 0 30%;
     text-decoration: underline;
+    place-items: center;
 }
 
 
@@ -394,11 +393,12 @@ main {
     flex-flow: column;
 }
 
-  .eyelid {
-        max-width: 100px;
-        place-items: center;
-    }
-    
+.eyelid {
+    margin: auto;
+    max-width: 100px;
+    place-items: center;
+}
+
 
 
 
@@ -441,7 +441,6 @@ main {
         max-width: 100px;
         place-items: center;
     }
-    
+
 
 }
-
