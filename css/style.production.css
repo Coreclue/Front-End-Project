@@ -260,6 +260,7 @@ svg:hover {
     left: 25px;
     margin-top: 150px;
     place-items: center;;
+    line-height: 3;
 }
 
 b {
