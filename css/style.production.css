@@ -258,7 +258,8 @@ svg:hover {
 #div-about-paragraph {
     position: relative;
     left: 25px;
-    margin-top: 200px;
+    margin-top: 150px;
+    place-items: center;;
 }
 
 b {
@@ -296,9 +297,8 @@ th {
 }
 
 
-#about-paragraph {
-    line-height: 1.8;
-}
+
+
 
 #about-paragraph:hover {
     background-color: orange;
