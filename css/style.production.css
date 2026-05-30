@@ -7,6 +7,9 @@
 
 /*CSS variables inside the global scope of root*/
 :root {
+    --primary-bg-color: #add8e6;
+    --mydisplay: flex;
+
     /*Colors*/
     /*fonts*/
 }
@@ -18,7 +21,7 @@
 }
 
 /*INDEX.HTML*/
-.eb-garamond {
+.body {
     font-family: "EB Garamond", Serif, serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -26,11 +29,11 @@
     font-size: 18px;
     line-height: 1.5;
     color: #000000;
-    background-color: #add8e6;
+    background-color: var(--primary-bg-color);
 
 }
 
-.flex-container {
+.header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -73,7 +76,7 @@
     }
 }
 
-/*index.html, about.html, contact.html, work.html, not working.*/
+/*index.html, about.html, contact.html, work.html, not working. Span class*/ 
 .development {
     /* animation-name: development; */
     /* animation-duration: 5s; */
@@ -317,22 +320,14 @@ th {
 
 
 
-/*Contact.html*/
+/* Contact.html */
 #contact-h1 {
-    margin-left: 50%;
+    margin-top: 175px;
+    
 }
 
-#form-div {
-    margin-left: 50%;
-    place-items: center;
-}
-
-#form-form {
-    line-height: 100px;
-}
 
 #contact-div {
-    margin-left: 50%;
 
 }
 
@@ -341,6 +336,7 @@ th {
     padding: 10px;
     border: 1px solid #000000;
     border-radius: 100%;
+    
 }
 
 
@@ -402,12 +398,12 @@ main {
    ∫∫
 }
 
+/* Svg class */
 .eyelid {
     margin: auto;
     max-width: 100px;
     place-items: center;
 }
-
 
 
 
@@ -428,7 +424,7 @@ main {
 }
 
 @media (max-width: 500px) {
-    .eb-garamond {
+    .body {
         max-width: 100%;
         width: 100%;
         box-sizing: border-box;
@@ -436,9 +432,6 @@ main {
 
 
 
-    .navigation-list {
-        flex-direction: column;
-    }
 
     .eyelid {
         max-width: 100px;
