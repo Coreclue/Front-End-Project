@@ -16,10 +16,12 @@
     rel="stylesheet" />
   <link href="css/style.production.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="/css/media-queries.css" type="text/css" />
+  <script type="module" src ="./index.js" defer></script>
 </head>
 
-<body class="eb-garamond container-fluid m-0 p-0">
-  <header class="flex-container">
+<body class="body container-fluid m-0 p-0">
+  <div id="root">
+  <header class="header">
     <img src="imgs/favicon-32x32.png" alt="eye Development" class="img1" /><span class="development">Development</span>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -28,6 +30,7 @@
       <!-- Eye Outline -->
       <ellipse cx="100" cy="100" rx="80" ry="50" stroke="black" stroke-width="5" fill="white" />
       <!-- Pupil -->
+       
       <circle class="pupil" cx="100" cy="100" r="20" fill="green" />
     </svg>
 
@@ -48,6 +51,7 @@
       </div>
     </nav>
   </header>
+  </div>
   <div class="profile-pic">
     <img src="imgs/profile-pic.jpg" alt="Brian Mcintosh" id="index-profile-pic" />
     <p id="hello-border">
@@ -78,7 +82,6 @@
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
   <script src="js/tota11y-0.1.6/tota11y-0.1.6/build/tota11y.min.js"></script>
-  <script src="index.js"></script>
 </body>
 
 </html>
