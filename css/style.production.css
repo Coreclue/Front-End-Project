@@ -27,12 +27,18 @@
     line-height: 1.5;
     color: #000000;
     background-color: #add8e6;
+
 }
 
 .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        
+
 }
 
 
@@ -69,11 +75,11 @@
 
 /*index.html, about.html, contact.html, work.html, not working.*/
 .development {
-    /*animation-name: development;*/
-    /*animation-duration: 5s;*/
-    /*animation-iteration-count: infinite;*/
-    /*animation-direction: alternate;*/
-    /*animation-timing-function: linear;*/
+    /* animation-name: development; */
+    /* animation-duration: 5s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-timing-function: linear; */
     position: relative;
     top: 78px;
 }
@@ -318,6 +324,7 @@ th {
 
 #form-div {
     margin-left: 50%;
+    place-items: center;
 }
 
 #form-form {
@@ -392,6 +399,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-flow: column;
+   ∫∫
 }
 
 .eyelid {
@@ -426,12 +434,6 @@ main {
         box-sizing: border-box;
     }
 
-    .flex-container {
-        max-width: 100%;
-        width: 100%;
-        box-sizing: border-box;
-
-    }
 
 
     .navigation-list {
