@@ -327,10 +327,6 @@ th {
 }
 
 
-#contact-div {
-
-}
-
 #contact-div-button {
     background-color: #ffffff;
     padding: 10px;
@@ -347,7 +343,7 @@ th {
 }
 
 a:visited {
-    /*color: var(--red);*/
+    color: var(--red);
 }
 
 a:hover,
@@ -395,7 +391,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-flow: column;
-   ∫∫
 }
 
 /* Svg class */
