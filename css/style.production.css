@@ -38,8 +38,8 @@
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-        width: 100%;
-        box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
         
 
 }
@@ -401,8 +401,11 @@ main {
 }
 
 
-
-
+/* Work section id  */
+#work-section {
+    margin-top: 350px;
+    place-items: center;
+}
 
 
 
